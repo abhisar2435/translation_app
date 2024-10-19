@@ -99,9 +99,9 @@ const App = () => {
         {isLoading && <p className="text-center">Translating...</p>}
         {error && <p className="text-center text-red-500">{error}</p>}
       </div>
-      <footer className="text-center text-sm text-gray-500 mt-4">
+      {/* <footer className="text-center text-sm text-gray-500 mt-4">
         Powered by MyMemory Translation API
-      </footer>
+      </footer> */}
     </div>
   );
 };
